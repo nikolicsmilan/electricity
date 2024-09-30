@@ -54,6 +54,6 @@ coverage/               # Ha használsz tesztelési keretrendszert, mint pl. Jes
 
 # ESLint cache
 .eslintcache             # ESLint gyorsítótár fájl
-
+build/
 
 
