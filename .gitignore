@@ -37,7 +37,7 @@ dist-ssr/
 .firebaserc        # Firebase projekt konfiguráció
 /src/firebase.js    # Ha érzékeny adatokat tartalmaz
 firebase.js         # Ha érzékeny adatokat tartalmaz
-
+./firebase.js 
 # Miscellaneous
 Thumbs.db
 *.bak
