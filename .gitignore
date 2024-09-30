@@ -1,11 +1,6 @@
 # Logs
 logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-pnpm-debug.log*
-lerna-debug.log*
-firebase-debug.log
 
 # Node modules
 node_modules/
@@ -47,8 +42,6 @@ Thumbs.db
 *.bak
 
 # Operating System files
-*.DS_Store              # macOS fájlok
-*.log                   # Log fájlok
 *.tmp                   # Ideiglenes fájlok
 
 # IDE specific files
@@ -62,6 +55,5 @@ coverage/               # Ha használsz tesztelési keretrendszert, mint pl. Jes
 # ESLint cache
 .eslintcache             # ESLint gyorsítótár fájl
 
-# Tailwind
-tailwind.config.js      # Tailwind konfiguráció (ha nem szeretnéd verziókezelni)
+
 
