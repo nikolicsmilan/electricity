@@ -36,6 +36,8 @@ dist-ssr/
 # Firebase
 .firebaserc        # Firebase projekt konfiguráció
 /src/firebase.js    # Ha érzékeny adatokat tartalmaz
+src/firebase.js    # Ha érzékeny adatokat tartalmaz
+./src/firebase.js    # Ha érzékeny adatokat tartalmaz
 firebase.js         # Ha érzékeny adatokat tartalmaz
 ./firebase.js 
 # Miscellaneous
