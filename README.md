@@ -82,7 +82,7 @@ Through this project, I aim not only to further my professional development but 
 
 1. Clone the repository
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/nikolicsmilan/electricity.git
 
 cd Electricity
 npm install
