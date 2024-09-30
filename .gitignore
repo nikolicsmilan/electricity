@@ -13,6 +13,7 @@ node_modules/
 # Build output
 dist/
 dist-ssr/
+build/               # Vite build output, ha van
 
 # Environment files
 .env
@@ -34,17 +35,33 @@ dist-ssr/
 *.swp
 
 # Firebase
-.firebaserc        # Firebase projekt konfiguráció
-/src/firebase.js    # Ha érzékeny adatokat tartalmaz
-src/firebase.js    # Ha érzékeny adatokat tartalmaz
-./src/firebase.js    # Ha érzékeny adatokat tartalmaz
-firebase.js         # Ha érzékeny adatokat tartalmaz
-./firebase.js 
+.firebaserc              # Firebase projekt konfiguráció
+/src/firebase.js         # Ha érzékeny adatokat tartalmaz
+src/firebase.js          # Ha érzékeny adatokat tartalmaz
+./src/firebase.js        # Ha érzékeny adatokat tartalmaz
+firebase.js              # Ha érzékeny adatokat tartalmaz
+./firebase.js
+
 # Miscellaneous
 Thumbs.db
 *.bak
 
-/src/firebase.js
-src/firebase.js
-./src/firebase.js
+# Operating System files
+*.DS_Store              # macOS fájlok
+*.log                   # Log fájlok
+*.tmp                   # Ideiglenes fájlok
+
+# IDE specific files
+*.sublime-project       # Sublime Text projekt fájlok
+*.sublime-workspace     # Sublime Text workspace fájlok
+*.code-workspace        # VSCode workspace fájlok
+
+# Test coverage
+coverage/               # Ha használsz tesztelési keretrendszert, mint pl. Jest
+
+# ESLint cache
+.eslintcache             # ESLint gyorsítótár fájl
+
+# Tailwind
+tailwind.config.js      # Tailwind konfiguráció (ha nem szeretnéd verziókezelni)
 

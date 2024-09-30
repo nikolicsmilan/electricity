@@ -19,25 +19,40 @@ Through this project, I aim not only to further my professional development but 
 │   │   ├── video/ // Directory for videos <br>
 │   │   └── sound/ // Directory for sound files <br>
 │   ├── context/ <br>
-│   │   ├── GeneralContext.jsx // Context for audio-related functionalities <br>
-│   ├── components/ // Reusable components used throughout the application <br>
+│   │   ├── GeneralContext.jsx // Context for general functionalities <br>
+│   ├── components/                    // Reusable components used throughout the application <br>
+│   │   ├── header/                    // A separate folder for Header <br>
+│   │   │   └── Header.tsx              // Main Header component <br>
+│   │   ├── navbar/                    // A separate folder for Navbar <br>
+│   │   │   ├── Navbar.tsx              // Main Navbar component <br>
+│   │   │   ├── Dropdown.tsx            // Dropdown menu component <br>
+│   │   │   └── NavLink.tsx             // Custom link component <br>
+│   │   ├── footer/                     // A separate folder for Footer <br>
+│   │   │   └── Footer.tsx              // Main Footer component <br>
+│   │   ├── button/                     // Button component <br>
+│   │   │   └── Button.tsx              // Main Button component <br>
+│   │   ├── card/                       // Card component <br>
+│   │   │   └── Card.tsx                // Main Card component <br>
+│   │   └── modal/                      // Modal component <br>
+│   │       └── Modal.tsx               // Main Modal component <br>
+│   ├── shared // Reusable components used throughout the application <br>
+│   │   ├── Error/ // Error page components <br>
+│   │   │   └── Error.tsx // Main error component <br>
 │   ├── hooks/ // Directory for custom hooks <br>
 │   │   ├── use-windowsize.js // Hook for getting dynamic information about the screen size <br>
 │   ├── layouts/ // Components for application layouts <br>
-│   │   ├── LayoutHome.jsx // Default layout for the home page <br>
+│   │   ├── LayoutHome.tsx // Default layout for the home page <br>
+│   │   ├── LayoutDefault.tsx // Default layout for the home page <br>
 │   ├── locales/ <br>
 │   │   └── localdata.js // Static data for menus, testing, and more <br>
 │   ├── utils/ <br>
 │   │   ├── motion.js // Static data for animations using Framer Motion <br>
 │   ├── pages/ // Components for individual pages <br>
 │   │   ├── Home/ // Main page component and its sub-components <br>
-│   │   │   ├── Home.jsx // Main component for the Home page <br>
+│   │   │   ├── Home.tsx // Main component for the Home page <br>
 │   │   │   └── components/ // Sub-components of the main page component <br>
-│   │   ├── Error/ // Error page components <br>
-│   │   │   └── Error.jsx // Main error component <br>
 │   ├── firebase/ // Firebase-related files <br>
-│   ├── utils/ // Helper functions and classes <br>
-│   ├── App.jsx // Main component of the application <br>
+│   ├── App.tsx // Main component of the application <br>
 │   ├── App.css // CSS file for the main component <br>
 │   ├── main.js // Main JavaScript file <br>
 │   ├── index.css // CSS file for index.html <br>

@@ -34,17 +34,15 @@ module.exports = {
           name: "light",
           extend: {
             colors: {
-              primary: "#22d3ee",
-              200: "#bae6fd",
-              600: "#0284c7",
-              950: "#082f49",
-              success: "rgb(63, 178, 121)",
-              info: "rgb(191, 191, 191)",
-              dark: "rgb(0, 0, 0)",
-              asidebg: "rgb(129, 171, 178)",
+              primary: "#1E2A38", // Dark blue main color
+              secondary: "#ECF0F1", // Light gray
+              accent: "#D98E30", // Orange for CTA
+              background: "#2C3E50", // Darker shade for background
+              success: "#2ECC71", // Green highlight color
+              text: "#BDC3C7", // Light gray for text
             },
             fontFamily: {
-              robotoMono: ["Roboto Mono", "monospace"],
+              robotoMono: ["Montserrat","Roboto Mono", "monospace"],
             },
             backgroundImage: {
               gradient:
