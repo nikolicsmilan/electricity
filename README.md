@@ -33,8 +33,13 @@ Through this project, I aim not only to further my professional development but 
 │   │   │   └── Button.tsx              // Main Button component <br>
 │   │   ├── card/                       // Card component <br>
 │   │   │   └── Card.tsx                // Main Card component <br>
-│   │   └── modal/                      // Modal component <br>
-│   │       └── Modal.tsx               // Main Modal component <br>
+│   │   ├── modal/                                <br>
+│   │   │   ├── Modal.tsx                          // Main Modal component <br>
+│   │   │   ├── ElectricalEngineeringContent.tsx   // Content for Electrical Engineering <br>
+│   │   │   ├── BasicElectricalKnowledgeContent.tsx  // Content for Basic Electrical Knowledge <br>
+│   │   │   ├── BasicMechanicalKnowledgeContent.tsx  // Content for Basic Mechanical Knowledge <br>
+│   │   │   ├── AnimationsContent.tsx               // Content for Animations <br>
+│   │   │   └── WiringDiagramsContent.tsx           // Content for Wiring Diagrams <br>
 │   ├── shared // Reusable components used throughout the application <br>
 │   │   ├── Error/ // Error page components <br>
 │   │   │   └── Error.tsx // Main error component <br>

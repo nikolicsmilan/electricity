@@ -21,7 +21,7 @@ const Header: React.FC<HeaderProps> = ({
           <div className="bg-primary rounded p-2">
             <img
               className="bg-primary h-10 "
-              src="/src/assets/images/electricitysuper3.png"
+              src="/electricitysuper3.png" // Helyes útvonal
               alt="Electricity logo"
             />{" "}
             {/* Helyes útvonal */}
@@ -37,7 +37,7 @@ const Header: React.FC<HeaderProps> = ({
             onClick={() => setToggle(!toggle)}
             className="bg-primary text-white px-4 py-2 rounded hover:bg-gray-800 transition"
           >
-          Kezdjük!
+            Kezdjük!
           </button>
         </div>
       </div>

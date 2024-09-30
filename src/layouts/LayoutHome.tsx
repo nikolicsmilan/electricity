@@ -32,7 +32,7 @@ import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import { useGeneralContext } from '../context/GeneralContext'; 
 import Header from '../components/header/Header';
-import Modal from '../components/modal/Modal'; // A Modal importálása
+//import Modal from '../components/modal/Modal'; // A Modal importálása
 
 const LayoutHome: React.FC = () => {
   const { toggle, setToggle } = useGeneralContext();
@@ -52,7 +52,7 @@ const LayoutHome: React.FC = () => {
       </main>
 
       <footer className="bg-gray-800 text-white p-4 text-center">
-        <p>© 2024 Elektromosság. Minden jog fenntartva.</p>
+        <p>© 2024 Villanyszerelő. Minden jog fenntartva.</p>
       </footer>
     </div>
   );

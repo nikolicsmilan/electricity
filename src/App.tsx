@@ -19,7 +19,7 @@ const router = createBrowserRouter([
 
 const App = () => {
  // const { toggle, setToggle } = useGeneralContext(); // Hozzáférés a kontextus adataihoz
-  const [theme, setTheme] = useState<string>("light"); // Típus megadása a useState-hez
+  const [theme] = useState<string>("light"); // Típus megadása a useState-hez
 
   return (
     <div className={`${theme}`}>
