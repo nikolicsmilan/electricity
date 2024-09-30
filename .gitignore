@@ -43,3 +43,8 @@ firebase.js         # Ha érzékeny adatokat tartalmaz
 # Miscellaneous
 Thumbs.db
 *.bak
+
+/src/firebase.js
+src/firebase.js
+./src/firebase.js
+
