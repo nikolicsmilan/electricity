@@ -1,9 +1,11 @@
-
+import animationelectricity from "../../assets/images/animation-electrician.JPG"
 const AnimationsContent: React.FC = () => {
   return (
-    <div>
-      <h2 className="text-lg font-semibold">Animations</h2>
-      <p className="text-gray-600">Content related to Animations goes here.</p>
+   <div className="flex border-0 bg-white w-full h-full p-6 rounded-xl">
+      <div className="w-1/2 border-0">szöveg</div>
+      <div className="w-1/2 ">
+        <img className="w-full h-full object-contain rounded-none" src={animationelectricity} />
+      </div>
     </div>
   );
 };

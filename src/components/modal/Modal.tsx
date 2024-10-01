@@ -48,7 +48,7 @@ const Modal: React.FC = () => {
   };
 
   return (
-    <div className="absolute top-full mt-10 left-1/2 transform -translate-x-1/2  p-0 shadow-lg  w-[800px] h-[400px] ">
+    <div className="absolute top-full mt-10 left-1/2 transform -translate-x-1/2  p-0 shadow-lg  w-[800px] ">
       {renderContent()}
     </div>
   );
