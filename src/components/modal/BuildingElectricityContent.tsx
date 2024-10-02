@@ -1,6 +1,6 @@
 import solarelectricity from "../../assets/images/solar-electrician.JPG";
 
-const ElectricalEngineeringContent: React.FC = () => {
+const BuildingElectricityContent: React.FC = () => {
   return (
     <div className="flex border-0 bg-white w-full h-full p-6 rounded-xl">
       <div className="w-1/2 border-0">szöveg</div>
@@ -11,4 +11,4 @@ const ElectricalEngineeringContent: React.FC = () => {
   );
 };
 
-export default ElectricalEngineeringContent;
+export default BuildingElectricityContent;
