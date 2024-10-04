@@ -16,11 +16,11 @@ const Header: React.FC<HeaderProps> = ({
 }) => {
   return (
     <header className=" py-4 ">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center cursor-pointer   ">
+      <div className=" mx-auto flex justify-between items-center">
+        <div className="flex items-center cursor-pointer   mx-4">
           <div className="bg-primary rounded p-2">
             <img
-              className="bg-primary h-10 "
+              className="bg-primary h-10  transition duration-300 hover:scale-125"
               src="/electricitysuper3.png" // Helyes útvonal
               alt="Electricity logo"
             />{" "}
@@ -35,7 +35,7 @@ const Header: React.FC<HeaderProps> = ({
           </button>
           <button
             onClick={() => setToggle(!toggle)}
-            className="bg-primary text-white px-4 py-2 rounded hover:bg-gray-800 transition"
+            className=" hover:bg-white hover:text-primary hover:border-2 border-primary mx-4 bg-primary text-white px-4 py-2 rounded hover:bg-gray-800 transition"
           >
             Kezdjük!
           </button>

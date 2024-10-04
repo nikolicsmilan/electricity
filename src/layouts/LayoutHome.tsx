@@ -13,7 +13,7 @@ const LayoutHome: React.FC = () => {
   };
 
   return (
-    <div className={`flex flex-col min-h-screen bg-gray-100`}>
+    <div className={`flex flex-col min-h-screen bg-gray-100 `}>
       <Header
         toggle={toggle}
         setToggle={setToggle}
@@ -22,7 +22,7 @@ const LayoutHome: React.FC = () => {
       />
 
       <main
-        className="flex-grow p-4 relative"
+        className="flex-grow p-4 relative h-screen bg-mybackground bg-cover"
         onMouseEnter={() => setHoveredItem(null)}
         onMouseLeave={() => setHoveredItem(null)}
       >
