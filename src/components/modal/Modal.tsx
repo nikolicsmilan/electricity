@@ -29,7 +29,7 @@ const Modal: React.FC = () => {
   };
 
   return (
-    <div className="absolute top-full mt-7 left-1/2 transform -translate-x-1/2  p-0 shadow-lg  w-[1000px] z-50">
+    <div className="absolute top-full mt-7 left-1/2 transform -translate-x-1/2  p-0 shadow-lg  w-[850px] z-50 border-0 border-red-400">
       {renderContent()}
     </div>
   );

@@ -427,8 +427,8 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="relative flex flex-col space-x-6 text-lg font-bold">
-      <div className="flex space-x-6 relative">
+    <nav className="flex flex-col fixed top-5 left-1/2 transform -translate-x-1/2  w-[900px] font-bold border-0 items-center justify-center border-0 border-orange-400">
+      <div className=" flex space-x-6 relative border-0 border-lime-400">
         {menuItems.map((item, index) => (
           <div
             key={item}
@@ -450,7 +450,7 @@ const Navbar: React.FC = () => {
 
         {/* Egyetlen vonal, amely követi a menüpontokat */}
         <motion.div
-          className="absolute top-10  h-[4px] bg-black rounded"
+          className="absolute top-8  h-[4px] bg-black rounded"
           animate={{
             width: underlineProps.width,
             x: underlineProps.x-30,

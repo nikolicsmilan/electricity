@@ -1,9 +1,35 @@
-import React from 'react';
+import React from "react";
 
 // Egyszerű komponens típussal
 const Home: React.FC = () => {
   return (
-    <div>Home</div>
+    <div className=" w-full h-full flex justify-center items-center">
+      <div className="flex flex-col w-[900px] h-2/3 text-center border-0 border-0 border-red-400">
+        <div>
+          <h1 className="text-6xl font-bold "> Üdvözöllek a  Villanyszerelés tanfolyamon !</h1>
+      <p className="text-xl">Hasznos anyagok a villanszerelést tanulni vágyók számára</p>
+        </div>
+
+        <div className="border-2 border-orange-400 flex justify-center">
+          <div className="hidde cursor-pointer hover:scale-110 transition duration-300 p-6 bg-gray-100 border-0 flex flex-col  justify-center items-center my-5 w-1/2 ">
+            <p
+              className="text-2xl font-bold  
+         text-black rounded   "
+            >
+              Ezen weboldal  a célja, hogy hasznos információkat
+              nyújtsak számodra, miközben építem a saját portfóliómat. Kérlek,
+              vedd figyelembe, hogy csak tanuló vagyok és a tartalomért felelősséget nem vállalok!
+            </p>
+            <button className="uppercase text-2xl font-bold text-white bg-red-500 hover:bg-lime-400 w-64 p-2 m-2 rounded"> Értettem!</button>
+          </div>
+          <div className="flex items-center justify-center w-1/2">
+            <button className="flex items-center justify-center text-2xl text-white bg-primary hover:bg-accent w-64 h-12 m-2 p-2 rounded">
+            <p>  Kezdjük!</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 

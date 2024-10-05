@@ -13,29 +13,44 @@ const LayoutHome: React.FC = () => {
   };
 
   return (
-    <div className={`flex flex-col min-h-screen bg-gray-100 `}>
-      <Header
-        toggle={toggle}
-        setToggle={setToggle}
-        isMenuOpen={isMenuOpen}
-        toggleMenu={toggleMenu}
-      />
+<div className={`flex flex-col min-h-screen bg-gray-100 relative `}>
+<Header
+    toggle={toggle}
+    setToggle={setToggle}
+    isMenuOpen={isMenuOpen}
+    toggleMenu={toggleMenu}
+  />
 
-      <main
-        className="flex-grow p-4 relative h-screen bg-mybackground bg-cover"
-        onMouseEnter={() => setHoveredItem(null)}
-        onMouseLeave={() => setHoveredItem(null)}
-      >
-        <Outlet />
-      </main>
+  <main
+    className="h-screen  bg-gray-100 flex-grow p-4 relative bg-mybackgroundmob
+    lg:bg-mybackground bg-no-repeat bg-center bg-cover  bg-blend-multiply "
+    onMouseEnter={() => setHoveredItem(null)}
+    onMouseLeave={() => setHoveredItem(null)}
+  >
+    <Outlet />
+  </main>
 
-      <footer className="bg-gray-800 text-white p-4 text-center">
-        <p>© 2024 Villanyszerelő. Minden jog fenntartva.</p>
-      </footer>
-    </div>
+  <footer className="bg-gray-800 text-white p-4 text-center ">
+    <p>© 2024 Villanyszerelő. Minden jog fenntartva.</p>
+  </footer>
+</div>
+
   );
 };
 
 export default LayoutHome;
 
+/*
+  <Header
+    toggle={toggle}
+    setToggle={setToggle}
+    isMenuOpen={isMenuOpen}
+    toggleMenu={toggleMenu}
+  />
+*/
+/*
+  <footer className="bg-gray-800 text-white p-4 text-center ">
+    <p>© 2024 Villanyszerelő. Minden jog fenntartva.</p>
+  </footer>
+*/
 //<Modal />
