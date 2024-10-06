@@ -34,8 +34,8 @@ module.exports = {
           name: "light",
           extend: {
             colors: {
-              primary: "#1E2A38", // Dark blue main color
-              secondary: "#ECF0F1", // Light gray
+              primary: "#1D2D33", // Sötét kékeszöld:
+              secondary: "#BAB7A4", // BAB7A4
               accent: "#D98E30", // Orange for CTA
               background: "#2C3E50", // Darker shade for background
               success: "#2ECC71", // Green highlight color
@@ -51,8 +51,9 @@ module.exports = {
                 "linear-gradient(45deg, #082f49 1%, #075985 40%,  #cffafe 90% )",
               gradientreverse:
                 "linear-gradient(225deg, #082f49 1%, #075985 40%,  #cffafe 90% )",
-              mybackground: "url('../src/assets/images/background10.png')",
+              mybackground: "url('../src/assets/images/nightcity.jpg')",
               mybackgroundmob: "url('../src/assets/images/background10_mob.png')",
+
             },
            
           },
