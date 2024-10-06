@@ -23,7 +23,7 @@ const LayoutHome: React.FC = () => {
 
   <main
     className="h-screen  bg-gray-100 flex-grow p-4 relative 
-     bg-no-repeat bg-center bg-cover  bg-blend-multiply "
+    bg-mybackground bg-no-repeat bg-center bg-cover  bg-blend-multiply "
     onMouseEnter={() => setHoveredItem(null)}
     onMouseLeave={() => setHoveredItem(null)}
   >

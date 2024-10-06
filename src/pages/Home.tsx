@@ -6,10 +6,10 @@ const Home: React.FC = () => {
     <div className=" w-full h-full flex justify-center items-center">
       <div className="flex flex-col w-[900px]  text-center border-0 border-0 border-red-400">
         <div className=" bg-blac p-2">
-          <h1 className="text-6xl font-bold "> Üdvözöllünk a  Villanyszerelés tanfolyamon !</h1>
+          <h1 className="text-2xl lg:text-6xl font-bold "> Üdvözöllünk a  Villanyszerelés tanfolyamon !</h1>
       <p className="text-xl hidden">Hasznos anyagok a villanszerelést tanulni vágyók számára</p>
       <div className="flex items-center justify-center w-full my-10 border-0">
-            <button className="flex items-center justify-center text-2xl text-white  bg-primary w-64 h-12 m-2 p-2 rounded">
+            <button className="flex items-center justify-center lg:text-2xl text-white  bg-primary w-40 lg:w-64 h-12 m-2 p-2 rounded">
             <p>  Kezdjük!</p>
             </button>
           </div>

@@ -51,7 +51,7 @@ module.exports = {
                 "linear-gradient(45deg, #082f49 1%, #075985 40%,  #cffafe 90% )",
               gradientreverse:
                 "linear-gradient(225deg, #082f49 1%, #075985 40%,  #cffafe 90% )",
-              mybackground: "url('../src/assets/images/nightcity.jpg')",
+              mybackground: "url('../src/assets/images/backgroundsimple9.png')",
               mybackgroundmob: "url('../src/assets/images/background10_mob.png')",
 
             },
