@@ -1,14 +1,17 @@
 import knwoledge from "../../assets/images/knwoledge_400x400.jpg";
+
+
 const BasicElectricalKnowledgeContent: React.FC = () => {
   return (
     <div className="flex border-0 bg-white w-full h-full p-6 rounded-xl">
       <div className="w-1/2 border-0">
         <h2 className="text-lg font-bold ">Alapvető Elektromos Ismeretek</h2>
-      <p>  Az elektromosság az egyik legfontosabb energiaforrás, amelyet számos
-        iparágban és a mindennapi életben is alkalmazunk.
-        . Az alapszintű ismeretek
-        segíthetnek abban, hogy biztonságosan és hatékonyan kezeljük az
-        elektromos berendezéseket.
+        <p>
+          {" "}
+          Az elektromosság az egyik legfontosabb energiaforrás, amelyet számos
+          iparágban és a mindennapi életben is alkalmazunk. . Az alapszintű
+          ismeretek segíthetnek abban, hogy biztonságosan és hatékonyan kezeljük
+          az elektromos berendezéseket.
         </p>
       </div>
       <div className="w-1/2 ">
