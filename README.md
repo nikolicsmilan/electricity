@@ -56,6 +56,7 @@ Through this project, I aim not only to further my professional development but 
 │   │   ├── Home/ // Main page component and its sub-components <br>
 │   │   │   ├── Home.tsx // Main component for the Home page <br>
 │   │   │   └── components/ // Sub-components of the main page component <br>
+│   │   |   └── HomeHero.tsx // Hero section component for the Home page <br>
 │   ├── firebase/ // Firebase-related files <br>
 │   ├── App.tsx // Main component of the application <br>
 │   ├── App.css // CSS file for the main component <br>
@@ -71,6 +72,8 @@ Through this project, I aim not only to further my professional development but 
 ├── vite.config.js // Vite configuration <br>
 └── README.md // Project README file <br>
 
+
+|----*-************__________________  ----- -  -  -- 
 ## Getting Started
 
 ### Prerequisites

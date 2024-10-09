@@ -1,5 +1,24 @@
 import knwoledge from "../../assets/images/knwoledge_400x400.jpg";
+const linksb = [
+  { link: "Kirchof I törvénye", route: "kirchof1" },
+  { link: "Kirchof II törvénye", route: "kirchof2" },
+  { link: "Kirchof III törvénye", route: "kirchof3" },
+  { link: "Ohm törvénye", route: "ohm" },
+];
 
+const linksc = [
+  { link: "Egyenirányítók", route: "kirchof1" },
+  { link: "Kirchof II törvénye", route: "kirchof2" },
+  { link: "Kirchof III törvénye", route: "kirchof3" },
+  { link: "Ohm törvénye", route: "ohm" },
+];
+
+const links = [
+  { link: "Törvények", route: "kirchof1" },
+  { link: "Diódák", route: "kirchof2" },
+  { link: "Kapcsolások", route: "kirchof3" },
+  { link: "Ohm törvénye", route: "ohm" },
+];
 
 const BasicElectricalKnowledgeContent: React.FC = () => {
   return (
@@ -25,12 +44,4 @@ const BasicElectricalKnowledgeContent: React.FC = () => {
 };
 
 export default BasicElectricalKnowledgeContent;
-/* Az elektromos áram két
-        alapvető formája az egyenáram (DC) és a váltakozó áram (AC), amelyek
-        különböző eszközök és berendezések működtetésére szolgálnak. Az
-        elektromos áramkörök alapelemei közé tartoznak a vezetők, az
-        ellenállások, a kondenzátorok és az induktorok. Az Ohm-törvény segít
-        megérteni az elektromos áram, a feszültség és az ellenállás közötti
-        összefüggést. Fontos, hogy mindig körültekintően járjunk el az
-        elektromos rendszerekkel kapcsolatban, mert a nem megfelelő használat
-        áramütést vagy egyéb balesetet okozhat */
+
