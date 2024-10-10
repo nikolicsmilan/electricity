@@ -1,7 +1,7 @@
 import React from "react";
 import { useGeneralContext } from "../../context/GeneralContext";
 import BuildingElectricityContent from './BuildingElectricityContent';
-import BasicElectricalKnowledgeContent from './BasicElectricalKnowledgeContent';
+import BasicElectricalKnowledgeContent from './BasicElectricalKnowledgeContent/BasicElectricalKnowledgeContent';
 import BasicMechanicalKnowledgeContent from './BasicMechanicalKnowledgeContent';
 import AnimationsContent from './AnimationsContent';
 import WiringDiagramsContent from './WiringDiagramsContent';
