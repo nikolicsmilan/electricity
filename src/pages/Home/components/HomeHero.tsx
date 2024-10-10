@@ -3,11 +3,10 @@ import { Link } from "react-router-dom";
 interface HomeHeroProps {
   title: string;
   subtitle: string;
-  buttonText: string;
   onStartClick: () => void; // Új prop a görgetési funkcióhoz
 }
 
-const HomeHero: React.FC<HomeHeroProps> = ({ title, subtitle, buttonText,onStartClick  }) => {
+const HomeHero: React.FC<HomeHeroProps> = ({ title, subtitle, onStartClick  }) => {
   return (
     <div className="flex flex-col w-[900px] text-center border-0  border-red-400">
       <div className="p-2">
@@ -21,11 +20,10 @@ const HomeHero: React.FC<HomeHeroProps> = ({ title, subtitle, buttonText,onStart
           </Link>
         </div>
       </div>
-      fffffffffffffffffff
 
 
-      <button onClick={() => document.getElementById("home-introduction")?.scrollIntoView({ behavior: "smooth" })}>ez</button>
-      <fieldset>sdf sdff sdfsd f</fieldset>f describ sdf sd f fdsfsd'
+
+      
     
      
     </div>

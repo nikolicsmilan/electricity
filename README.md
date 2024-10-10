@@ -56,7 +56,25 @@ Through this project, I aim not only to further my professional development but 
 │   │   ├── Home/ // Main page component and its sub-components <br>
 │   │   │   ├── Home.tsx // Main component for the Home page <br>
 │   │   │   └── components/ // Sub-components of the main page component <br>
-│   │   |   └── HomeHero.tsx // Hero section component for the Home page <br>
+│   │   │       ├── HomeHero.tsx // Hero section component for the Home page <br>
+│   │   │       └── HomeIntroduction.tsx // Introduction section component <br>
+│   │   ├── Law/ // Main page component and its sub-components <br>
+│   │   │   ├── LawRoutes.tsx // Main component for the Law page <br>
+│   │   │   └── components/ // Sub-components of the main page component <br>
+│   │   │       ├── Kirchhoff1/ // Sub-component for Kirchhoff's first law <br>
+│   │   │       │   ├── Kirchhoff1.tsx // Main component for Kirchhoff's first law <br>
+│   │   │       ├── Kirchhoff2/ // Sub-component for Kirchhoff's second law <br>
+│   │   │       │   ├── Kirchhoff2.tsx // Main component for Kirchhoff's second law <br>
+│   │   │       ├── OhmsLaw/ // Sub-component for Ohm's law <br>
+│   │   │       │   ├── OhmsLaw.tsx // Main component for Ohm's law <br>
+│   │   ├── Diodes/ // Main page component and its sub-components <br>
+│   │   │   ├── DiodesRoutes.tsx // Main component for the Law page <br>
+│   │   │   └── components/ // Sub-components of the main page component <br>
+│   │   │       ├── DiodesDetails.tsx/ // Sub-component for Kirchhoff's first law <br>
+│   │   ├── Circuits/ // Main page component and its sub-components <br>
+│   │   │   ├── CircuitsRoutes.tsx // Main component for the Law page <br>
+│   │   │   └── components/ // Sub-components of the main page component <br>
+│   │   │       ├── CircuitsDetails.tsx/ // Sub-component for Kirchhoff's first law <br>
 │   ├── firebase/ // Firebase-related files <br>
 │   ├── App.tsx // Main component of the application <br>
 │   ├── App.css // CSS file for the main component <br>

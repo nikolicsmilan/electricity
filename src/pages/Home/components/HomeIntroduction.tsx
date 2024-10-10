@@ -1,5 +1,5 @@
 import React from "react";
-import professorImage from "../../assets/images/profimage.webp"; // Kép importálása
+import professorImage from "../../../assets/images/profimage.webp"; // Kép importálása
 
 const HomeIntroduction: React.FC = () => {
   return (

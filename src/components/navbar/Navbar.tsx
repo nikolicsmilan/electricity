@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="flex flex-col fixed top-5 left-1/2 transform -translate-x-1/2  w-[900px] font-bold border-0 items-center justify-center border-0 h-12 border-orange-400">
+    <nav className="flex flex-col fixed top-0 h-20 left-1/2 transform -translate-x-1/2  w-full font-bold border-0 items-center justify-center border-0 bg-stone-300 border-orange-400">
       <div className="  flex space-x-6 relative border-0 border-lime-400">
         {menuItems.map((item, index) => (
           <div

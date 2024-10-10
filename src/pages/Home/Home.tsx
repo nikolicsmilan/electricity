@@ -17,7 +17,6 @@ const Home: React.FC = () => {
       <HomeHero
         title="Üdvözöllünk a Villanyszerelés tanfolyamon!"
         subtitle="Hasznos anyagok a villanyszerelést tanulni vágyók számára"
-        buttonText="Kezdjük!"
         onStartClick={scrollToIntroduction}
       />
       </div>
