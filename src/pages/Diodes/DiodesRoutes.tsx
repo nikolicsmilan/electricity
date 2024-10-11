@@ -1,5 +1,5 @@
-import { Outlet, Link } from "react-router-dom";
-import DiodeDetails from "./components/DiodeDetails";
+import {  Link } from "react-router-dom";
+//import DiodeDetails from "./components/DiodeDetails";
 
 const DiodesRoutes = () => {
   return (
@@ -12,7 +12,6 @@ const DiodesRoutes = () => {
           </li>
         </ul>
       </nav>
-      <Outlet />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 // src/pages/Law/Law.tsx
-import { Outlet, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 const LawRoutes: React.FC = () => {
   return (

@@ -1,5 +1,5 @@
-import { Outlet, Link } from "react-router-dom";
-import CircuitDetails from "./components/CircuitDetails";
+import { Link } from "react-router-dom";
+//import CircuitDetails from "./components/CircuitDetails";
 
 const CircuitsRoutes = () => {
   return (
@@ -12,7 +12,6 @@ const CircuitsRoutes = () => {
           </li>
         </ul>
       </nav>
-      <Outlet />
     </div>
   );
 };
